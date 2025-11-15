@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #000;
+}
+
+.wh {
+  color: #ffffff;
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+
+.back {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  font-family: monospace;
+  text-decoration: none;
+  color: #5f5881;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease;
+  clear: both;
+}
+
+.back:hover {
+  color: #ffffff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+

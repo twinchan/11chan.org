@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.header {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: 1px solid #cb7391;
+  background-color: #cb7391;
+  color: #000;
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about {
+  margin: 30px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.links {
+  margin-top: 20px;
+  font-family: monospace;
+  text-align: left;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #5f5881;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+
+.links a:hover {
+  color: #ffffff;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+.links::before,
+.links::after {
+  content: "┌─-----";
+  color: #888;
+  display: block;
+  padding-left: 0;
+}
+.links::after {
+  content: "└─-----";
+  color: #888;
+  display: block;
+  padding-left: 0;
+}
+.links li {
+  margin: 5px 0;
+}
+
+.prefix {
+  margin-right: 5px;
+  color: #888;
+}
+
+.back {
+  margin-top: 20px;
+  font-family: monospace;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #5f5881;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+
+.back:hover {
+  color: #ffffff;
+}
+
+.d  {
+  text-align: left;
+}
+
+.gif-wrapper {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.random-gif {
+  width: 200px !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.disclaimer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.images {
+  position: absolute;
+  top: 0;
+
+  z-index: -1;
+  opacity: 0.2;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images > * {
+  height: 400px;
+  max-height: 25vh;
+}
+
+.gif-wrapper2 {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 12;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #000;
+}
+
+.random-anime {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
