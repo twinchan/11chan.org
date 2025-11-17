@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
     { file: 'music/song10.mp3', title: 'unhappybirthday', artist: 'waqs' },
     { file: 'music/song11.mp3', title: 'everything is meaningless', artist: 'waqs' },
     { file: 'music/song12.mp3', title: 'Cute boy core', artist: 'shoebill' },
-    { file: 'music/song13.mp3', title: "i don't want to be me", artist: 'waqs' }
+    { file: 'music/song13.mp3', title: "i don't want to be me", artist: 'waqs' },
+    { file: 'music/song14.mp3', title: "birthday_2025", artist: 'frxgxd' }
   ];
 
   let currentIndex = 0;
