@@ -120,6 +120,12 @@ body {
   right: 10px;
 }
 
+.friend {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
 .images {
   position: absolute;
   top: 0;
@@ -152,5 +158,16 @@ body {
   object-fit: cover;
 }
 
+@keyframes rainbow {
+    0%   { color: red; }
+    17%  { color: orange; }
+    33%  { color: yellow; }
+    50%  { color: green; }
+    67%  { color: blue; }
+    84%  { color: purple; }
+    100% { color: red; }
+}
 
-
+.rainbow-text {
+    animation: rainbow 5s infinite linear;
+}
